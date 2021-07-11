@@ -67,7 +67,7 @@ const VoiceAssistant = () => {
 
     setTimeout(function(){
       event.target.classList.remove('animate');
-    },700);
+    }, 700);
   }
 
   let bubblyButtons = document.getElementsByClassName("reset-button");
