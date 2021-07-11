@@ -1,11 +1,25 @@
-# Getting Started with Create React App
+# React - Voice Assistant using React Speech Recognition
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://velocitybytes.com/uploads/images/2021/07/image_750x_60ea8b533060e.jpg" alt="voice-asst"/>
+
+<br />
+<br />
+This is a simple web page that has search bar with mic icon at
+the end of the input field. Initially the mic icon is off, when you
+click it, the mic icon is on, and your browser will ask you to allow
+your device microphone to listen for first time. As soon as you speak,
+your speech translates to text and is displayed in the search bar.
+You can reset the text with Reset button below the search bar.
+When you turn your mic on and won't speak anything, the mic turns
+off after 6 seconds (you can change this in code). You can also write
+your own commands to do particular task.
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can install:
+### `yarn install`
 
+In the project directory, you can run:
 ### `yarn start`
 
 Runs the app in the development mode.\
